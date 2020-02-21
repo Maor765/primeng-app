@@ -1,0 +1,8 @@
+<p-calendar [(ngModel)]="value"></p-calendar>
+<p-checkbox name="groupname" value="val1" [(ngModel)]="selectedValues"></p-checkbox>
+<p-checkbox name="groupname" value="val2" [(ngModel)]="selectedValues"></p-checkbox>
+<p-carousel [value]="cars">
+  <ng-template let-car pTemplate="item">
+      Content to display
+  </ng-template>
+</p-carousel>
