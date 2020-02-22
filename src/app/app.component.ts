@@ -25,4 +25,24 @@ export class AppComponent {
         numScroll: 1
     }
 ];
+
+  cities: any[];
+
+  selectedCities: any[];
+
+  constructor() {
+    this.cities = [
+      {name: 'New York'},
+      {name: 'Rome'},
+      {name: 'London'},
+      {name: 'Istanbul'},
+      {name: 'Paris'}
+    ];
+  }
+
+  userInput: any;
+  handleClick($event) {
+    this.cities = [...this.cities, {name:this.userInput}];
+  }
+
 }

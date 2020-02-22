@@ -11,6 +11,8 @@ import {InputTextModule} from 'primeng/inputtext';
 import {TabViewModule} from 'primeng/tabview';
 import {CodeHighlighterModule} from 'primeng/codehighlighter';
 import {CarouselModule} from 'primeng/carousel';
+import {ListboxModule} from 'primeng/listbox';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
   imports: [
@@ -24,7 +26,9 @@ import {CarouselModule} from 'primeng/carousel';
     InputTextModule,
     TabViewModule,
     CodeHighlighterModule,
-    CarouselModule
+    CarouselModule,
+    ListboxModule,
+    ButtonModule
   ],
   exports: [
     CheckboxModule,
@@ -37,7 +41,9 @@ import {CarouselModule} from 'primeng/carousel';
     InputTextModule,
     TabViewModule,
     CodeHighlighterModule,
-    CarouselModule
+    CarouselModule,
+    ListboxModule,
+    ButtonModule
   ],
   declarations: []
 })
