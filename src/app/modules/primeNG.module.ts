@@ -13,6 +13,7 @@ import {CodeHighlighterModule} from 'primeng/codehighlighter';
 import {CarouselModule} from 'primeng/carousel';
 import {ListboxModule} from 'primeng/listbox';
 import {ButtonModule} from 'primeng/button';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import {ButtonModule} from 'primeng/button';
     CodeHighlighterModule,
     CarouselModule,
     ListboxModule,
-    ButtonModule
+    ButtonModule,
+    TableModule
   ],
   exports: [
     CheckboxModule,
@@ -43,7 +45,8 @@ import {ButtonModule} from 'primeng/button';
     CodeHighlighterModule,
     CarouselModule,
     ListboxModule,
-    ButtonModule
+    ButtonModule,
+    TableModule
   ],
   declarations: []
 })

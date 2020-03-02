@@ -5,11 +5,14 @@ import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {PrimeNGModule} from './primeNG.module';
+import {PrimeNGModule} from './modules/primeNG.module';
+import { TableTestComponent } from './table-test/table-test.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TableTestComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +20,8 @@ import {PrimeNGModule} from './primeNG.module';
     BrowserAnimationsModule,
     PrimeNGModule,
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
